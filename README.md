@@ -80,6 +80,15 @@ Aplikasi ini digunakan untuk memprediksi kelayakan seseorang dalam Program Kelua
     npm run dev
     ```
 
+## Parameter
+Parameter Yang di gunakan untuk melakukan prediksi PKH meliputi
+1. JUMLAH_KELUARGA
+2. PENGHASILAN
+3. PENDIDIKAN_TERTINGGI
+4. SETATUS_RUMAH
+5. PEKERJAAN
+6. KONDISI_KESEHATAN
+
 ## Penggunaan
 1. Akses aplikasi melalui browser dengan mengunjungi `http://localhost:8000`.
 2. Login atau registrasi untuk mengakses fitur prediksi.
@@ -88,9 +97,6 @@ Aplikasi ini digunakan untuk memprediksi kelayakan seseorang dalam Program Kelua
 
 ## Kontribusi
 Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini dan buat pull request dengan perubahan yang Anda buat.
-
-## Lisensi
-Proyek ini dilisensikan di bawah MIT License. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
 ## Penulis
 - [GitHub](https://github.com/yokim05)
