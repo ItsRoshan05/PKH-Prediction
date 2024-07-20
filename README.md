@@ -2,6 +2,10 @@
 
 Aplikasi ini digunakan untuk memprediksi kelayakan seseorang dalam Program Keluarga Harapan (PKH) menggunakan machine learning. Aplikasi ini dibangun menggunakan Flask sebagai backend dan Laravel sebagai frontend.
 
+## Tampilan Aplikasi
+![Tampilan Aplikasi](https://drive.google.com/file/d/1GPnPY21u2pMsEGWCEPQ-05wYlPWhgGJk/view?usp=sharing)
+
+
 ## Fitur
 - Prediksi kelayakan PKH
 - Integrasi Flask dan Laravel
