@@ -369,7 +369,17 @@ return [
                 //     'url' => '#',
                 // ],
             ],
-        ],
+        ],   [
+            'text' => 'Dataset',
+            'icon' => 'fas fa-fw fa-code',
+            'submenu' => [
+                [
+                    'text' => 'Data Latih',
+                    'icon' => 'fas fa-fw fa-database',
+                    'url' => 'admin/data',
+                ]
+            ],
+        ]
         // ['header' => 'labels'],
         // [
         //     'text' => 'important',

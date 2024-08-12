@@ -47,5 +47,15 @@ def predict():
     
     return jsonify(response)
 
+@app.route('/alldata', methods=['GET'])
+def get_data():
+    # Load CSV data
+    df = pd.read_csv('data/dataJamal.csv')
+    
+    # Convert DataFrame to JSON
+    data_json = df.to_dict(orient='records')
+    
+    return jsonify(data_json)
+
 if __name__ == '__main__':
     app.run(debug=True)
