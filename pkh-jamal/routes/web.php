@@ -24,14 +24,7 @@ Auth::routes();
 Route::middleware(['auth'])->group(function () {
     // Admin Dashboard
     Route::get('/admin/dashboard',[DashboardController::class, 'index'])->name('admin.dashboard');
-    // Route::get('/admin/dashboard', function () {
-    //     return view('admin.dashboard');
-    // })->name('admin.dashboard');
-
-    // Default route (could be changed to your desired route)
-    Route::get('/', function () {
-        return view('admin.dashboard');
-    });
+    Route::get('/',[DashboardController::class, 'index'])->name('admin.dashboard');
 
     // User management routes
     Route::resource('admin/users', UserController::class);
