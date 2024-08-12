@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PredictController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -22,9 +23,10 @@ Auth::routes();
 // Routes requiring authentication
 Route::middleware(['auth'])->group(function () {
     // Admin Dashboard
-    Route::get('/admin/dashboard', function () {
-        return view('admin.dashboard');
-    })->name('admin.dashboard');
+    Route::get('/admin/dashboard',[DashboardController::class, 'index'])->name('admin.dashboard');
+    // Route::get('/admin/dashboard', function () {
+    //     return view('admin.dashboard');
+    // })->name('admin.dashboard');
 
     // Default route (could be changed to your desired route)
     Route::get('/', function () {
