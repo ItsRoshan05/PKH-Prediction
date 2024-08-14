@@ -29,7 +29,8 @@ Route::middleware(['auth'])->group(function () {
 
     // User management routes
     Route::resource('admin/users', UserController::class);
-    Route::get('/admin/data',[DataController::class, 'show']);
+    Route::get('/admin/datanb',[DataController::class, 'show']);
+    Route::get('/admin/datac45',[DataController::class, 'showc45']);
 
     // Prediction routes
     Route::prefix('admin')->group(function () {

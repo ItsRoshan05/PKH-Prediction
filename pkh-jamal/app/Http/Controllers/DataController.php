@@ -20,6 +20,17 @@ class DataController extends Controller
 
         return view('dataset.index', compact('data'));
     }
+    public function showc45()
+    {
+        // Path to the CSV file in storage folder
+        $filePath = storage_path('app/public/databaru.csv');
+
+        // Read CSV file
+        $data = $this->readCsv($filePath);
+
+
+        return view('dataset.c45', compact('data'));
+    }
     protected function readCsv($filePath)
     {
         $rows = [];

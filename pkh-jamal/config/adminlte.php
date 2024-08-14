@@ -370,13 +370,18 @@ return [
                 // ],
             ],
         ],   [
-            'text' => 'Dataset',
+            'text' => 'Metode',
             'icon' => 'fas fa-fw fa-code',
             'submenu' => [
                 [
-                    'text' => 'Data Latih',
+                    'text' => 'Naive Bayes',
                     'icon' => 'fas fa-fw fa-database',
-                    'url' => 'admin/data',
+                    'url' => 'admin/datanb',
+                ],
+                [
+                    'text' => 'C4.5 Decission Tree',
+                    'icon' => 'fas fa-fw fa-database',
+                    'url' => 'admin/datac45',
                 ]
             ],
         ]

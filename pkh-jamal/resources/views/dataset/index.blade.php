@@ -10,19 +10,43 @@
 <link rel="stylesheet" href="{{ asset('plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
 <link rel="stylesheet" href="{{ asset('plugins/datatables-buttons/css/buttons.bootstrap4.min.css') }}">
+<link rel="stylesheet" href="{{ asset('plugins/chart.js/Chart.min.css') }}">
+<style>
+    .card-custom-header {
+        background-color: #343a40;
+        color: white;
+        padding: 10px;
+    }
+    .card-title-custom {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .table th, .table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+    pre {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+    }
+</style>
 @endsection
 
 @section('content')
-    <div class="card">
-        <div class="card-header">
-            <h3 class="card-title">CSV Data</h3>
+    <!-- CSV Data Card -->
+    <div class="card mt-3">
+        <div class="card-header card-custom-header">
+            <h3 class="card-title-custom">Metode Naive Bayes</h3>
         </div>
         <div class="card-body">
             @if(empty($data) || !is_array($data))
-                <p>No data available or invalid data format.</p>
+                <div class="alert alert-warning" role="alert">
+                    <strong>Warning!</strong> No data available or invalid data format.
+                </div>
             @else
                 <table id="example" class="table table-bordered table-striped">
-                    <thead>
+                    <thead class="thead-dark">
                         <tr>
                             <th>NAMA</th>
                             <th>NIK</th>
@@ -56,7 +80,50 @@
             @endif
         </div>
     </div>
+
+    <!-- Naive Bayes Result Card -->
+    <div class="card mt-4">
+        <div class="card-header card-custom-header">
+            <h3 class="card-title-custom">Naive Bayes Classification Results</h3>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Accuracy of Naive Bayes:</strong>98%</p>
+                    <p><strong>Confusion Matrix:</strong></p>
+                    <pre>
+[[30  0]
+ [ 1 29]]
+                    </pre>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Classification Report:</strong></p>
+                    <pre>
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98        30
+           1       1.00      0.97      0.98        30
+
+    accuracy                           0.98        60
+   macro avg       0.98      0.98      0.98        60
+weighted avg       0.98      0.98      0.98        60
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confusion Matrix Chart Card -->
+    <div class="card mt-4">
+        <div class="card-header card-custom-header">
+            <h3 class="card-title-custom">Confusion Matrix Chart</h3>
+        </div>
+        <div class="card-body">
+            <canvas id="confusionMatrixChart"></canvas>
+        </div>
+    </div>
 @endsection
+
 @section('js')
 <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('plugins/datatables/jquery.dataTables.min.js') }}"></script>
@@ -71,6 +138,7 @@
 <script src="{{ asset('plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
 <script src="{{ asset('plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
 <script src="{{ asset('plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
+<script src="{{ asset('plugins/chart.js/Chart.min.js') }}"></script>
 
 <script>
     $(function () {
@@ -80,6 +148,50 @@
             "autoWidth": false,
             "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
         }).buttons().container().appendTo('#example_wrapper .col-md-6:eq(0)');
+    });
+
+    // Confusion Matrix Chart
+    var ctx = document.getElementById('confusionMatrixChart').getContext('2d');
+    var confusionMatrixChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['True Negative (0,0)', 'False Positive (0,1)', 'False Negative (1,0)', 'True Positive (1,1)'],
+            datasets: [{
+                label: 'Confusion Matrix',
+                data: [30, 0, 1, 29],
+                backgroundColor: [
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(255, 206, 86, 0.6)',
+                    'rgba(54, 162, 235, 0.6)'
+                ],
+                borderColor: [
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(54, 162, 235, 1)'
+                ],
+                borderWidth: 1,
+                hoverBackgroundColor: [
+                    'rgba(75, 192, 192, 0.8)',
+                    'rgba(255, 99, 132, 0.8)',
+                    'rgba(255, 206, 86, 0.8)',
+                    'rgba(54, 162, 235, 0.8)'
+                ],
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false
+                }
+            }
+        }
     });
 </script>
 @endsection
