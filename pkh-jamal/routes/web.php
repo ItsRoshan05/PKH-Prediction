@@ -31,6 +31,8 @@ Route::middleware(['auth'])->group(function () {
     Route::resource('admin/users', UserController::class);
     Route::get('/admin/datanb',[DataController::class, 'show']);
     Route::get('/admin/datac45',[DataController::class, 'showc45']);
+    Route::get('/admin/datatest',[DataController::class, 'showtest']);
+    Route::get('/admin/datatraining',[DataController::class, 'showtrain']);
 
     // Prediction routes
     Route::prefix('admin')->group(function () {

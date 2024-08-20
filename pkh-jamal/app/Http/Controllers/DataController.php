@@ -31,6 +31,29 @@ class DataController extends Controller
 
         return view('dataset.c45', compact('data'));
     }
+    public function showtrain()
+    {
+        // Path to the CSV file in storage folder
+        $filePath = storage_path('app/public/train_data.csv');
+
+        // Read CSV file
+        $data = $this->readCsv($filePath);
+
+
+        return view('dataset.train', compact('data'));
+    }
+    public function showtest()
+    {
+        // Path to the CSV file in storage folder
+        $filePath = storage_path('app/public/test_data.csv');
+
+        // Read CSV file
+        $data = $this->readCsv($filePath);
+
+
+        return view('dataset.test', compact('data'));
+    }
+    
     protected function readCsv($filePath)
     {
         $rows = [];

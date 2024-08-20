@@ -1,61 +1,301 @@
 ,NAMA,JUMLAH_KELUARGA,PENGHASILAN,PENDIDIKAN_TERTINGGI,SETATUS_RUMAH,PEKERJAAN,KONDISI_KESEHATAN
-24,LUSI ISWATI,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Kurang
-65,UNAN,Keluarga Besar, Sedang ,Tidak Sekolah,Sedang,Wirausaha,Baik
-113,WARSITI,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
-261,IPAH,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
-188,DWI  RAMDANI,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik
-181,AAN DARWATI,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
-59,ADIP,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
-87,KOKOM KOMARIAH,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Kurang
-293,AGUS HARJANTO,Keluarga Sedang, Sedang ,Tidak Sekolah,Baik,petani,Cukup
-277,SUHENDA,Keluarga Sedang, Sedang ,SD,Sedang,petani,Cukup
-244,CICIH,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Kurang
-43,RUNIAH,Keluarga Sedang, Sedang ,SMP,Baik,lain-lain,Cukup
-193,DARUS,Keluarga Kecil, Tinggi ,SD,Baik,lain-lain,Cukup
-284,UNA,Keluarga Sedang, tinggi ,SARJANA,Sedang,lain-lain,Cukup
-238,RISNA FEBRIYANTI,Keluarga Kecil, Tinggi ,Tidak Sekolah,Sedang,lain-lain,Cukup
-26,AANG NAZMUDIN,Keluarga Sedang, Tinggi ,SMP,Baik,petani,Baik
-245,RUKINAH,Keluarga Sedang, Tinggi ,SMP,Baik,lain-lain,Baik
-214,NURI ANGGRAENI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
-189,DEWI,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
-281,ASIH SETIASIH,Keluarga Sedang, Tinggi ,SMA,Kurang,lain-lain,Baik
-52,AMIN,Keluarga Kecil, tinggi ,SMA,Baik,Wirausaha,Baik
-215,OOM MUTIAH,Keluarga Kecil, Kurang ,SMP,Sedang,petani,Cukup
-130,ADELIA AZAHRA,Keluarga Kecil, Tinggi ,SD,Sedang,lain-lain,Cukup
-64,JAENUDIN,Keluarga Sedang, Tinggi ,SMA,Sedang,lain-lain,Cukup
-164,RASNAH,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
-70,SAPRI,Keluarga Sedang, Tinggi ,SMP,Baik,Wirausaha,Cukup
-138,IRAH,Keluarga Besar, Tinggi ,SMA,Sedang,lain-lain,Baik
-202,MAHPUD,Keluarga Sedang, Kurang ,SD,Sedang,petani,Kurang
-230,SITI NURLIAH,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
-132,ELI,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Cukup
-47,TETI,Keluarga Kecil, Kurang ,SMP,Sedang,lain-lain,Cukup
-151,NAHRI,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
-25,MINAH,Keluarga Sedang, Sedang ,SD,Sedang,petani,Kurang
-183,ANIS,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Cukup
-197,JAENAL ABIDIN,Keluarga Besar, Tinggi ,SD,Kurang,lain-lain,Cukup
-298,RENI,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
-276,ABDUL AZIZ,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Kurang
-98,RUHEDAH,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
-231,SUHLI SOPANDI,Keluarga Sedang, Kurang ,SMP,Sedang,petani,Cukup
-76,EUIS NURJANAH,Keluarga Besar, Kurang ,SD,Sedang,petani,Cukup
-129,ATIKAH,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
-167,BAHRUM,Keluarga Besar, Tinggi ,SMP,Baik,petani,Cukup
-270,RUMNASIH,Keluarga Sedang, Sedang ,SD,Sedang,petani,Kurang
-100,MUMUN MULYAWATI,Keluarga Kecil, Tinggi ,SARJANA,Baik,lain-lain,Baik
-191,OMA PRIATNA,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Baik
-199,SAHRUDIN,Keluarga Besar, Sedang ,SMP,Sedang,petani,Kurang
-139,MIMIN,Keluarga Kecil, Tinggi ,SMP,Sedang,lain-lain,Kurang
-106,TINI SUARTINI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
-36,ROHMAH,Keluarga Sedang, Kurang ,SMP,Kurang,petani,Cukup
+0,AI SITI NURSARIPAH,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Cukup
+1,AMANAH,Keluarga Sedang, Kurang ,SMP,Sedang,petani,Cukup
+2,ARWENAH,Keluarga Sedang, Tinggi ,SARJANA,Baik,Wirausaha,Cukup
+3,AMNAH,Keluarga Sedang, Sedang ,SMP,Kurang,petani,Cukup
+4,ANING,Keluarga Kecil, Kurang ,SMP,Kurang,lain-lain,Cukup
+5,ESIN,Keluarga Sedang, Tinggi ,SARJANA,Baik,lain-lain,Baik
+6,IMAM MUHAROM,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik
+7,DAYAT,Keluarga Sedang, Sedang ,SMA,Sedang,lain-lain,Cukup
+8,RINA HERLINA,Keluarga Besar, Sedang ,SD,Baik,lain-lain,Baik
+9,IMAS,Keluarga Kecil, Sedang ,SMP,Sedang,petani,Kurang
 10,ENIH NURHASANAH,Keluarga Besar, Tinggi ,SMP,Kurang,lain-lain,Cukup
-273,SITA NURHAKIKI,Keluarga Sedang, Sedang ,Tidak Sekolah,Sedang,lain-lain,Cukup
-111,JONI ISKANDAR,Keluarga Kecil, tinggi ,SMA,Baik,Wirausaha,Baik
-286,ABDUL HAMJAH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Kurang
-119,WAWAN RUSWANDI,Keluarga Besar, Sedang ,SD,Kurang,petani,Cukup
-280,YOYOH YULIA,Keluarga Kecil, Tinggi ,SMA,Baik,lain-lain,Baik
-195,HENI NURAENI,Keluarga Kecil, Sedang ,SD,Sedang,lain-lain,Cukup
-237,RIVAL AGUNG SIDIK,Keluarga Besar, Tinggi ,SD,Sedang,lain-lain,Cukup
-80,EVA KHOERIAH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
-172,KANAH,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik
+11,EBO,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Cukup
+12,EEN ENTANG,Keluarga Besar, Sedang ,SMP,Sedang,Wirausaha,Cukup
+13,UYO ,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Baik
+14,AHID ,Keluarga Sedang, Tinggi ,SMP,Sedang,lain-lain,Cukup
+15,NASIR,Keluarga Besar, Tinggi ,Tidak Sekolah,Baik,lain-lain,Cukup
+16,ODIK ,Keluarga Sedang, Tinggi ,SMP,Sedang,lain-lain,Kurang
+17,EEN NURAENI,Keluarga Kecil, Kurang ,Tidak Sekolah,Kurang,Wirausaha,Kurang
+18,HASANUDIN,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+19,MAYA FEBRIYANTI ,Keluarga Kecil, tinggi ,SMAA,Sedang,Wirausaha,Kurang
+20,NURDIN,Keluarga Besar, Sedang ,SMP,Baik,lain-lain,Baik
+21,INAWATI,Keluarga Sedang, kurang ,SD,Sedang,lain-lain,Kurang
+22,ISOP SOPIAH,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Kurang
+23,RAMSIH,Keluarga Kecil, Tinggi ,SD,Baik,lain-lain,Cukup
+24,LUSI ISWATI,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Kurang
+25,MINAH,Keluarga Sedang, Sedang ,SD,Sedang,petani,Kurang
+26,AANG NAZMUDIN,Keluarga Sedang, Tinggi ,SMP,Baik,petani,Baik
+27,NASOR,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Kurang
+28,OMAN,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+29,UUN ROFIAH,Keluarga Kecil, Tinggi ,SARJANA,Baik,Wirausaha,Baik
+30,AGUS FATUROHMAN,Keluarga Kecil, Tinggi ,SD,Baik,lain-lain,Baik
+31,RATNENGSIH,Keluarga Sedang, Kurang ,SD,Sedang,petani,Kurang
+32,RODIAH,Keluarga Kecil, Kurang ,SMP,Sedang,lain-lain,Cukup
+33,ADE SUPRIATNA,Keluarga Kecil, Tinggi ,SARJANA,Baik,pns,Baik
+34,ABDUL FATAH,Keluarga Sedang, Tinggi ,SMA,Baik,petani,Baik
+35,ROHMAH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+36,ROHMAH,Keluarga Sedang, Kurang ,SMP,Kurang,petani,Cukup
+37,RUSTI,Keluarga Sedang, 100-500 ,Tidak Sekolah,Sedang,lain-lain,Kurang
+38,SUMINAH,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Cukup
+39,CICI NURJANAH,Keluarga Besar, tinggi ,SMA,Baik,lain-lain,Baik
+40,SURYAMAH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+41,TARMAN,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+42,RAHNI,Keluarga Sedang, Sedang ,SMP,Sedang,petani,Cukup
+43,RUNIAH,Keluarga Sedang, Sedang ,SMP,Baik,lain-lain,Cukup
+44,TATI KURNIATI,Keluarga Sedang, Sedang ,SD,Baik,lain-lain,Cukup
+45,TATA WIJAYA SUPRIATNA,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+46,TATI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+47,TETI,Keluarga Kecil, Kurang ,SMP,Sedang,lain-lain,Cukup
+48,AEF SAEFUL HIDAYAT,Keluarga Sedang, tinggi ,SARJANA,Baik,lain-lain,Baik
+49,UKAESIH,Keluarga Kecil, Kurang ,SMP,Sedang,lain-lain,Cukup
+50,ULNASIH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+51,UMAYAH,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,petani,Cukup
+52,AMIN,Keluarga Kecil, tinggi ,SMA,Baik,Wirausaha,Baik
+53,USIB,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Kurang
+54,ALI SUGIH MUKTI,Keluarga Kecil, Sedang ,SD,Sedang,petani,Kurang
+55,LILIS NURHAYATI,Keluarga Sedang, Tinggi ,SMP,Sedang,lain-lain,Cukup
 56,IMAN ,Keluarga Sedang, Tinggi ,SMP,Baik,lain-lain,Baik
+57,YUYUN YULIAWATI,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
+58,ADES,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Cukup
+59,ADIP,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+60,HERNA,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik
+61,AMI,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Kurang
+62,NASIR,Keluarga Besar, Tinggi ,Tidak Sekolah,Baik,lain-lain,Cukup
+63,ODIK ,Keluarga Sedang, Tinggi ,SMP,Sedang,lain-lain,Kurang
+64,JAENUDIN,Keluarga Sedang, Tinggi ,SMA,Sedang,lain-lain,Cukup
+65,UNAN,Keluarga Besar, Sedang ,Tidak Sekolah,Sedang,Wirausaha,Baik
+66,ANIS,Keluarga Besar, Kurang ,SMP,Sedang,lain-lain,Cukup
+67,ARMENAH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+68,CUCUN CUNAYAH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+69,HANDI,Keluarga Kecil, Tinggi ,SARJANA,Baik,lain-lain,Baik
+70,SAPRI,Keluarga Sedang, Tinggi ,SMP,Baik,Wirausaha,Cukup
+71,DESIH,Keluarga Kecil, Kurang ,SMP,Sedang,lain-lain,Kurang
+72,DESIH,Keluarga Sedang, Kurang ,SD,Sedang,petani,Cukup
+73,EKEUM,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+74,ASEP JAMALUDIN,Keluarga Sedang, Tinggi ,SMP,Baik,Wirausaha,Baik
+75,ENAH,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
+76,EUIS NURJANAH,Keluarga Besar, Kurang ,SD,Sedang,petani,Cukup
+77,ARYA,Keluarga Sedang, Tinggi ,SMA,Sedang,lain-lain,Kurang
+78,NASRUL FALAH,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Cukup
+79,SITI ROHAETI,Keluarga Sedang, tinggi ,SMA,Sedang,lain-lain,Kurang
+80,EVA KHOERIAH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+81,HANI HANDAYANI,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Kurang
+82,OMAH SUSILAWATI,Keluarga Kecil, Tinggi ,SD,Baik,petani,Baik
+83,SAHRUDIN,Keluarga Kecil, Tinggi ,SD,Baik,petani,Baik
+84,SUKAR,Keluarga Sedang, Tinggi ,SARJANA,Sedang,lain-lain,Cukup
+85,OPIK ,Keluarga Sedang, Tinggi ,SMP,Sedang,lain-lain,Cukup
+86,ISAH,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+87,KOKOM KOMARIAH,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Kurang
+88,WARYI,Keluarga Kecil, Sedang ,SD,Sedang,petani,Cukup
+89,ADES,Keluarga Besar, Tinggi ,SD,Sedang,lain-lain,Cukup
+90,RENI,Keluarga Kecil, Sedang ,SMP,Baik,lain-lain,Baik
+91,RUHEDAH,Keluarga Kecil, Sedang ,SD,Sedang,lain-lain,Cukup
+92,MAMI,Keluarga Sedang, Kurang ,SD,Sedang,petani,Cukup
+93,NUR HASANAH,Keluarga Sedang, Sedang ,Tidak Sekolah,Kurang,lain-lain,Cukup
+94,OMIH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+95,JUJU JUNAEDI,Keluarga Sedang, Tinggi ,SMA,Baik,Wirausaha,Baik
+96,RAHNI,Keluarga Sedang, Kurang ,SD,Sedang,petani,Kurang
+97,RATNENGSIH,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Cukup
+98,RUHEDAH,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+99,SACIH,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+100,MUMUN MULYAWATI,Keluarga Kecil, Tinggi ,SARJANA,Baik,lain-lain,Baik
+101,TARMINI,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
+102,TATI,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Kurang
+103,TITIN SUHARTINI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+104,EEN FATIMAH,Keluarga Kecil, Tinggi ,SMA,Baik,petani,Cukup
+105,SOPIAH,Keluarga Kecil, Tinggi ,SARJANA,Baik,lain-lain,Baik
+106,TINI SUARTINI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+107,ATIB,Keluarga Besar, Sedang ,SMP,Sedang,petani,Cukup
+108,SALKIB,Keluarga Kecil, Sedang ,SD,Sedang,lain-lain,Cukup
+109,UDEN,Keluarga Sedang, Sedang ,Tidak Sekolah,Sedang,petani,Kurang
+110,UDI,Keluarga Sedang, Sedang ,SMP,Sedang,petani,Cukup
+111,JONI ISKANDAR,Keluarga Kecil, tinggi ,SMA,Baik,Wirausaha,Baik
+112,ENTIS SUTISNA,Keluarga Kecil, tinggi ,SMAA,Baik,Wirausaha,Baik
+113,WARSITI,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
+114,OMIH,Keluarga Kecil, Tinggi ,SARJANA,Sedang,lain-lain,Baik
+115,LUSI ISWATI,Keluarga Besar, Tinggi ,Tidak Sekolah,Sedang,lain-lain,Kurang
+116,EKEM,Keluarga Besar, Sedang ,Tidak Sekolah,Sedang,Wirausaha,Cukup
+117,WIWIN WINARSIH,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Cukup
+118,ACE,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Cukup
+119,WAWAN RUSWANDI,Keluarga Besar, Sedang ,SD,Kurang,petani,Cukup
+120,AAN ARYANI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Kurang
+121,MURNASIH,Keluarga Sedang, Tinggi ,SMA,Sedang,lain-lain,Cukup
+122,ULNASIH,Keluarga Kecil, Sedang ,Tidak Sekolah,Sedang,petani,Kurang
+123,ANAH,Keluarga Kecil, Sedang ,SMP,Kurang,lain-lain,Cukup
+124,UMRI,Keluarga Sedang, Sedang ,SD,Baik,petani,Cukup
+125,EMID,Keluarga Besar, Tinggi ,SMA,Baik,petani,Cukup
+126,SAHDI,Keluarga Besar, Sedang ,SMP,Baik,lain-lain,Cukup
+127,IIM EFENDI,Keluarga Sedang, Tinggi ,SMA,Sedang,lain-lain,Kurang
+128,ASIH SETIASIH,Keluarga Kecil, Kurang ,SMP,Sedang,lain-lain,Cukup
+129,ATIKAH,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+130,ADELIA AZAHRA,Keluarga Kecil, Tinggi ,SD,Sedang,lain-lain,Cukup
+131,RITA ROSITA,Keluarga Kecil, Tinggi ,SARJANA,Sedang,lain-lain,Cukup
+132,ELI,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Cukup
+133,KAHNAR,Keluarga Sedang, Tinggi ,SMP,Kurang,lain-lain,Kurang
+134,TARNAH,Keluarga Kecil, Sedang ,SMP,Sedang,Wirausaha,Cukup
+135,EMAH,Keluarga Sedang, Kurang ,SMP,Kurang,petani,Kurang
+136,ENCAS,Keluarga Kecil, Sedang ,SD,Sedang,lain-lain,Cukup
+137,MAMUN,Keluarga Kecil, tinggi ,SMP,Baik,Wirausaha,Baik
+138,IRAH,Keluarga Besar, Tinggi ,SMA,Sedang,lain-lain,Baik
+139,MIMIN,Keluarga Kecil, Tinggi ,SMP,Sedang,lain-lain,Kurang
+140,HILMAN ARDIANSYAH,Keluarga Sedang, Sedang ,SMP,Sedang,petani,Kurang
+141,IKAH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+142,NOVI ISNI HAYATI,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
+143,HERNA ,Keluarga Besar, Sedang ,SMP,Kurang,lain-lain,Kurang
+144,IKAH RATNASARI,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+145,MIMIN,Keluarga Kecil, Sedang ,,Sedang,lain-lain,Cukup
+146,IRAH,Keluarga Kecil, Tinggi ,SARJANA,Baik,Wirausaha,Baik
+147,JURAEJIN,Keluarga Sedang, Sedang ,SMP,Baik,lain-lain,Baik
+148,OBOS,Keluarga Sedang, Tinggi ,SARJANA,Baik,lain-lain,Kurang
+149,YAYAT SUMIATI,Keluarga Sedang, Tinggi ,SD,Sedang,lain-lain,Kurang
+150,MURNASIH,Keluarga Sedang, Kurang ,SMP,Sedang,petani,Kurang
+151,NAHRI,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+152,YANA MULYANA ,Keluarga Sedang, Tinggi ,SARJANA,Sedang,Wirausaha,Cukup
+153,N TATI ,Keluarga Kecil, Sedang ,SMP,Kurang,petani,Kurang
+154,NANI,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+155,NARSIH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+156,NENI HAYATI,Keluarga Sedang, Sedang ,SMP,Kurang,petani,Cukup
+157,NUNUNG NURHAYATI,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Kurang
+158,UDI,Keluarga Kecil, Tinggi ,SARJANA,Baik,Wirausaha,Baik
+159,ODAH,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+160,OMAS PATIMAH,Keluarga Sedang, Kurang ,SMP,Sedang,petani,Kurang
+161,NARSIH,Keluarga Besar, Sedang ,SMP,Baik,lain-lain,Kurang
+162,YAYAH,Keluarga Besar, Tinggi ,SD,Sedang,lain-lain,Cukup
+163,OMAS PATIMAH,Keluarga Kecil, Tinggi ,SMA,Kurang,petani,Cukup
+164,RASNAH,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
+165,RITA WATI,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+166,TONI SAMBAS,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
+167,BAHRUM,Keluarga Besar, Tinggi ,SMP,Baik,petani,Cukup
+168,ANA,Keluarga Sedang, Tinggi ,SMA,Baik,lain-lain,Kurang
+169,RUNASIH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+170,TARMINI,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Kurang
+171,TATI KURNIATI,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+172,KANAH,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik
+173,RATNENGSIH,Keluarga Kecil, Tinggi ,SMP,Baik,Wirausaha,Baik
+174,URMI,Keluarga Kecil, Sedang ,SMP,Sedang,petani,Cukup
+175,WARSIH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+176,YAYAH,Keluarga Sedang, Kurang ,SD,Kurang,Wirausaha,Cukup
+177,wati,Keluarga Sedang, Kurang ,SARJANA,Baik,lain-lain,Baik
+178,ZENAL,Keluarga Kecil, Sedang ,SD,Sedang,lain-lain,Cukup
+179,DEDE WAHYUDI,Keluarga Sedang, Tinggi ,SMP,Baik,Wirausaha,Baik
+180,YUNENGSIH,Keluarga Kecil, Kurang ,Tidak Sekolah,Sedang,lain-lain,Kurang
+181,AAN DARWATI,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+182,EUIS SANAH,Keluarga Sedang, Tinggi ,SMP,Baik,Wirausaha,Baik
+183,ANIS,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Cukup
+184,ADE ROBIAH,Keluarga Besar, Kurang ,SMP,Kurang,lain-lain,Kurang
+185,ASIH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+186,ROHAETI,Keluarga Kecil, Tinggi ,SMA,Baik,lain-lain,Baik
+187,DARYA,Keluarga Sedang, Sedang ,Tidak Sekolah,Kurang,lain-lain,Cukup
+188,DWI  RAMDANI,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik
+189,DEWI,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
+190,ENUR HALIMAH,Keluarga Sedang, Sedang ,SMP,Kurang,lain-lain,Kurang
+191,OMA PRIATNA,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Baik
+192,JAJANG,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Cukup
+193,DARUS,Keluarga Kecil, Tinggi ,SD,Baik,lain-lain,Cukup
+194,ETI SUMIARTI,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+195,HENI NURAENI,Keluarga Kecil, Sedang ,SD,Sedang,lain-lain,Cukup
+196,MUJI,Keluarga Sedang, Sedang ,SMP,Kurang,lain-lain,Cukup
+197,JAENAL ABIDIN,Keluarga Besar, Tinggi ,SD,Kurang,lain-lain,Cukup
+198,UDIS SUHENDI,Keluarga Sedang, Tinggi ,SMP,Baik,lain-lain,Baik
+199,SAHRUDIN,Keluarga Besar, Sedang ,SMP,Sedang,petani,Kurang
+200,IMAS,Keluarga Besar, Kurang ,SMP,Sedang,petani,Cukup
+201,KOMALA,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
+202,MAHPUD,Keluarga Sedang, Kurang ,SD,Sedang,petani,Kurang
+203,ENEH,Keluarga Kecil, tinggi ,SMP,Baik,lain-lain,Baik
+204,ULNASIH,Keluarga Sedang, tinggi ,SMP,Baik,lain-lain,Cukup
+205,CACANG,Keluarga Kecil, Tinggi ,SMA,Kurang,Wirausaha,Cukup
+206,ABDUL KAMAL,Keluarga Kecil, Sedang ,SD,Baik,petani,Baik
+207,EVA NURHAYATI,Keluarga Kecil, Sedang ,SMP,Baik,lain-lain,Baik
+208,MARYAM,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+209,NIA KURNIA,Keluarga Sedang, Kurang ,Tidak Sekolah,Kurang,lain-lain,Kurang
+210,TASMI,Keluarga Sedang, Tinggi ,SD,Sedang,petani,Cukup
+211,DEWI,Keluarga Kecil, tinggi ,SMP,Baik,lain-lain,Baik
+212,RIDWAN MUSTOFA,Keluarga Besar, tinggi ,SMP,Sedang,lain-lain,Baik
+213,HENDRA SUNANTO PRAMANTO,Keluarga Sedang, Sedang ,SD,Sedang,petani,Cukup
+214,NURI ANGGRAENI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+215,OOM MUTIAH,Keluarga Kecil, Kurang ,SMP,Sedang,petani,Cukup
+216,RARAS MAYANGSARI,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
+217,BANA RUPADI,Keluarga Kecil, tinggi ,SARJANA,Baik,lain-lain,Baik
+218,RITA LESTARI,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Kurang
+219,ROBIHAT,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+220,NANA TARYANA,Keluarga Kecil, tinggi ,SD,Baik,Wirausaha,Cukup
+221,RUKINAH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+222,RUMNI,Keluarga Kecil, Sedang ,SMP,Kurang,lain-lain,Cukup
+223,RUNIAH,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+224,SAHMAN,Keluarga Sedang, Kurang ,SMP,Sedang,petani,Kurang
+225,SAPINAH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+226,OON,Keluarga Kecil, Tinggi ,SMP,Baik,Wirausaha,Baik
+227,SITI KULSUM,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Kurang
+228,ENDANG SUTISNA,Keluarga Sedang, Sedang ,SD,Baik,lain-lain,Baik
+229,SETIAWAN,Keluarga Besar, Sedang ,,Sedang,lain-lain,Cukup
+230,SITI NURLIAH,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+231,SUHLI SOPANDI,Keluarga Sedang, Kurang ,SMP,Sedang,petani,Cukup
+232,TINA AGUSTINA,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
+233,YOYOH YULIA,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Kurang
+234,SATJUB DARSO,Keluarga Kecil, Tinggi ,SD,Baik,petani,Baik
+235,ETI,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+236,AAN DARWATI,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup
+237,RIVAL AGUNG SIDIK,Keluarga Besar, Tinggi ,SD,Sedang,lain-lain,Cukup
+238,RISNA FEBRIYANTI,Keluarga Kecil, Tinggi ,Tidak Sekolah,Sedang,lain-lain,Cukup
+239,ACIH,Keluarga Kecil, Sedang ,SMP,Sedang,petani,Cukup
+240,AMAH,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+241,AMANAH,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Kurang
+242,ANAN,Keluarga Kecil, Tinggi ,SARJANA,Baik,lain-lain,Baik
+243,BERLEN,Keluarga Sedang, Kurang ,SMP,Kurang,petani,Cukup
+244,CICIH,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Kurang
+245,RUKINAH,Keluarga Sedang, Tinggi ,SMP,Baik,lain-lain,Baik
+246,CICIH,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
+247,DASIH,Keluarga Kecil, Kurang ,SMP,Sedang,petani,Cukup
+248,DEDEH WINENGSIH,Keluarga Sedang, Kurang ,SD,Sedang,petani,Cukup
+249,TRYIA MEILANI HADASTRIN,Keluarga Kecil, Sedang ,Tidak Sekolah,Sedang,lain-lain,Kurang
+250,FEBI PEBRIANA,Keluarga Kecil, Sedang ,SMP,Baik,petani,Cukup
+251,DIDI SETIAWAN,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Kurang
+252,EMOT,Keluarga Kecil, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+253,MIZAR,Keluarga Kecil, Tinggi ,SMA,Sedang,Wirausaha,Cukup
+254,ENIH NURHASANAH,Keluarga Sedang, Sedang ,SMP,Kurang,lain-lain,Cukup
+255,ENTANG,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Cukup
+256,ROBIHAT,Keluarga Besar, Tinggi ,SD,Baik,petani,Baik
+257,EROM,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+258,IKAH SUKAESIH,Keluarga Kecil, Sedang ,SD,Kurang,lain-lain,Kurang
+259,UJU JUWITA,Keluarga Kecil, Sedang ,SMP,Sedang,Wirausaha,Kurang
+260,SUNARYA,Keluarga Sedang, Tinggi ,SMP,Sedang,lain-lain,Cukup
+261,IPAH,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+262,KANAH,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Kurang
+263,NANIH,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup
+264,NURSIH,Keluarga Kecil, Kurang ,Tidak Sekolah,Kurang,lain-lain,Cukup
+265,AAR YUNIARTI,Keluarga Sedang, Tinggi ,SMA,Baik,Wirausaha,Baik
+266,JAJANG ROHMAN ,Keluarga Sedang, Tinggi ,SMP,Sedang,lain-lain,Cukup
+267,EKA PUTRI MULIA RAHAYU,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Cukup
+268,IYA WIDIANA,Keluarga Kecil, Tinggi ,SD,Sedang,lain-lain,Cukup
+269,OMAH,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+270,RUMNASIH,Keluarga Sedang, Sedang ,SD,Sedang,petani,Kurang
+271,UUN ROFIAH,Keluarga Sedang, Tinggi ,SMP,Baik,lain-lain,Cukup
+272,NANI,Keluarga Sedang, Sedang ,SMA,Kurang,lain-lain,Cukup
+273,SITA NURHAKIKI,Keluarga Sedang, Sedang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+274,SITI SAADAH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+275,MUHAMAD TAUFIK SALAHUDIN,Keluarga Kecil, Sedang ,SD,Baik,lain-lain,Baik
+276,ABDUL AZIZ,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Kurang
+277,SUHENDA,Keluarga Sedang, Sedang ,SD,Sedang,petani,Cukup
+278,UMIATIAH,Keluarga Kecil, Sedang ,Tidak Sekolah,Sedang,lain-lain,Cukup
+279,WIWIN WIDANDINI,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Kurang
+280,YOYOH YULIA,Keluarga Kecil, Tinggi ,SMA,Baik,lain-lain,Baik
+281,ASIH SETIASIH,Keluarga Sedang, Tinggi ,SMA,Kurang,lain-lain,Baik
+282,ISAH,Keluarga Kecil, Sedang ,SMP,Baik,Wirausaha,Cukup
+283,SAHIB,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,petani,Cukup
+284,UNA,Keluarga Sedang, tinggi ,SARJANA,Sedang,lain-lain,Cukup
+285,SOLIHIN ,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Cukup
+286,ABDUL HAMJAH,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Kurang
+287,AI NURAENI,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup
+288,SITI KULSUM,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Cukup
+289,POPON SURYAMAH,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup
+290,WARTINI,Keluarga Sedang, Sedang ,SD,Kurang,lain-lain,Cukup
+291,ACENG ROHANA,Keluarga Kecil, Tinggi ,SARJANA,Baik,petani,Baik
+292,ALIYUDIN,Keluarga Kecil, Tinggi ,SD,Sedang,lain-lain,Cukup
+293,AGUS HARJANTO,Keluarga Sedang, Sedang ,Tidak Sekolah,Baik,petani,Cukup
+294,CECEP SAEFUL MILAH,Keluarga Sedang, Sedang ,SMP,Kurang,lain-lain,Cukup
+295,HILMAN A,Keluarga Sedang, Kurang ,SD,Sedang,petani,Kurang
+296,IKA KARTIKA,Keluarga Sedang, Tinggi ,SMP,Baik,Wirausaha,Baik
+297,WATNI ,Keluarga Sedang, Kurang ,Tidak Sekolah,Kurang,lain-lain,Cukup
+298,RENI,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup
+299,RUMINI,Keluarga Besar, Tinggi ,SMA,Baik,lain-lain,Baik

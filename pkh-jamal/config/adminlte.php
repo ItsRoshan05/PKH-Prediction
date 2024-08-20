@@ -340,6 +340,16 @@ return [
                     'icon' => 'fas fa-fw fa-database',
                     'url' => 'admin/predictions',
                 ],
+                [
+                    'text' => 'Data Testing',
+                    'icon' => 'fas fa-fw fa-database',
+                    'url' => 'admin/datatest',
+                ],
+                [
+                    'text' => 'Data Training',
+                    'icon' => 'fas fa-fw fa-database',
+                    'url' => 'admin/datatraining',
+                ],
                 // [
                 //     'text' => 'level_one',
                 //     'url' => '#',

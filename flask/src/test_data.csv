@@ -1,0 +1,61 @@
+NAMA,NIK,ALAMAT,JUMLAH_KELUARGA,PENGHASILAN,PENDIDIKAN_TERTINGGI,SETATUS_RUMAH,PEKERJAAN,KONDISI_KESEHATAN,SETATUS_PENERIMA
+LUSI ISWATI,3213264412840001,KP CIJEREHILIR RW 003 RT 007,Keluarga Kecil, Sedang ,SMP,Sedang,lain-lain,Kurang,Ya
+UNAN,3213262603068230,KP CIGORE RW 005 RT 015,Keluarga Besar, Sedang ,Tidak Sekolah,Sedang,Wirausaha,Baik,Tidak
+WARSITI,3213265008890002,KP CIGORE RW 005 RT 015,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup,Ya
+IPAH,3213265511890006,KP PANEMBONG RW 002 RT 006,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup,Ya
+DWI  RAMDANI,3213260410120012,KP PANEMBONG RW 001 RT 002,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik,Tidak
+AAN DARWATI,3213266806740004,KP PANEMBONG RW 001 RT 001,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup,Ya
+ADIP,3213261703560001,KP CIGORE RW 005 RT 015,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup,Ya
+KOKOM KOMARIAH,3213264706780009,KP CIGORE RW 005 RT 015,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Kurang,Ya
+AGUS HARJANTO,3171031007190000,KP CIJEREHILIR RW 003 RT 011,Keluarga Sedang, Sedang ,Tidak Sekolah,Baik,petani,Cukup,Tidak
+SUHENDA,3213260608590001,KP PANEMBONG RW 002 RT 004,Keluarga Sedang, Sedang ,SD,Sedang,petani,Cukup,Ya
+CICIH,3213265306700002,KP PANEMBONG RW 002 RT 006,Keluarga Sedang, Sedang ,SD,Sedang,lain-lain,Kurang,Ya
+RUNIAH,3213260703090080,KP PANEMBONG RW 001 RT 001,Keluarga Sedang, Sedang ,SMP,Baik,lain-lain,Cukup,Tidak
+DARUS,3213262503090030,KP PANEMBONG RW 001 RT 001,Keluarga Kecil, Tinggi ,SD,Baik,lain-lain,Cukup,Tidak
+UNA,3213262603065560,KP PANEMBONG RW 001 RT 002,Keluarga Sedang, tinggi ,SARJANA,Sedang,lain-lain,Cukup,Tidak
+RISNA FEBRIYANTI,3213261106200000,KP CIJEREHILIR RW 003 RT 007,Keluarga Kecil, Tinggi ,Tidak Sekolah,Sedang,lain-lain,Cukup,Tidak
+AANG NAZMUDIN,3213262603069050,KP CIGORE RW 005 RT 015,Keluarga Sedang, Tinggi ,SMP,Baik,petani,Baik,Tidak
+RUKINAH,3213262603063640,KPPANEMBONG RW 002 RT 006,Keluarga Sedang, Tinggi ,SMP,Baik,lain-lain,Baik,Tidak
+NURI ANGGRAENI,3213265207870006,KMP PANEMBONG RW 001 RT 001,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup,Ya
+DEWI,3213145503900001,KP PANEMBONG RW 001 RT 002,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Cukup,Ya
+ASIH SETIASIH,3213261902110100,KP NYALINDUNG RW 004 RT 013,Keluarga Sedang, Tinggi ,SMA,Kurang,lain-lain,Baik,Tidak
+AMIN,3213260410120018,KP PANEMBONG RW 002 RT 006,Keluarga Kecil, tinggi ,SMA,Baik,Wirausaha,Baik,Tidak
+OOM MUTIAH,3213265010840002,KP PANEMBONG RW 001 RT 002,Keluarga Kecil, Kurang ,SMP,Sedang,petani,Cukup,Ya
+ADELIA AZAHRA,3213262210180000,KP CIJEREHILIR RW 003 RT 007,Keluarga Kecil, Tinggi ,SD,Sedang,lain-lain,Cukup,Tidak
+JAENUDIN,3213262603064580,KP PANEMBONG RW 001 RT 001,Keluarga Sedang, Tinggi ,SMA,Sedang,lain-lain,Cukup,Tidak
+RASNAH,3213266506480003,KP NYALINDUNG RW 004 RT 013,Keluarga Sedang, Kurang ,SMP,Kurang,lain-lain,Cukup,Ya
+SAPRI,3213262603066480,KP NYALINDUNG RW 004 RT 012,Keluarga Sedang, Tinggi ,SMP,Baik,Wirausaha,Cukup,Tidak
+IRAH,3213262603066500,KP NYALINDUNG RW 004 RT 013,Keluarga Besar, Tinggi ,SMA,Sedang,lain-lain,Baik,Tidak
+MAHPUD,3213261205590006,KMP PANEMBONG RW 001 RT 001,Keluarga Sedang, Kurang ,SD,Sedang,petani,Kurang,Ya
+SITI NURLIAH,3213265906910006,KP PANEMBONG RW 001 RT 003,Keluarga Sedang, Kurang ,Tidak Sekolah,Sedang,lain-lain,Cukup,Ya
+ELI,3213264102810012,KP NYALINDUNG RW 004 RT 012,Keluarga Kecil, Kurang ,SD,Sedang,lain-lain,Cukup,Ya
+TETI,3213265711670001,KP CIJERE HILIR RW 003 RT 007,Keluarga Kecil, Kurang ,SMP,Sedang,lain-lain,Cukup,Ya
+NAHRI,3213260506500012,KPNYALINDUN RW 004 RT 014,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup,Ya
+MINAH,3213265708480001,KP CIJEREHILIR RW 003 RT 007,Keluarga Sedang, Sedang ,SD,Sedang,petani,Kurang,Ya
+ANIS,3213262607210000,KP PANEMBONG RW 002 RT 006,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Cukup,Tidak
+JAENAL ABIDIN,3213260305070000,KP PANEMBONG RW 001 RT 001,Keluarga Besar, Tinggi ,SD,Kurang,lain-lain,Cukup,Tidak
+RENI,3213264303780007,KP PANEMBONG RT 06 RW 02,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup,Ya
+ABDUL AZIZ,3213262811180000,KP NYALINDUNG RW 004 RT 013,Keluarga Besar, Sedang ,SMP,Sedang,lain-lain,Kurang,Tidak
+RUHEDAH,3213264306550003,KP CIGORE RW 005 RT 017,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup,Ya
+SUHLI SOPANDI,3213261905550001,JLN PANEMBONG RW 001 RT 002,Keluarga Sedang, Kurang ,SMP,Sedang,petani,Cukup,Ya
+EUIS NURJANAH,3213265712760004,KP CIGORE RW 005 RT 015,Keluarga Besar, Kurang ,SD,Sedang,petani,Cukup,Ya
+ATIKAH,3213265510610001,KP NYALINDUNG RW 004 RT 012,Keluarga Sedang, Kurang ,SD,Kurang,lain-lain,Cukup,Ya
+BAHRUM,3213262603062770,KP CIJEREHILIR RW 003 RT 007,Keluarga Besar, Tinggi ,SMP,Baik,petani,Cukup,Tidak
+RUMNASIH,3213265603540002,KP PANEMBONG RW 002 RT 004,Keluarga Sedang, Sedang ,SD,Sedang,petani,Kurang,Ya
+MUMUN MULYAWATI,321326041012002O,KP CIGORE RT 15 RW 03,Keluarga Kecil, Tinggi ,SARJANA,Baik,lain-lain,Baik,Tidak
+OMA PRIATNA,3213260703090100,KP PANEMBONG RW 001 RT 001,Keluarga Sedang, Sedang ,SMP,Sedang,lain-lain,Baik,Tidak
+SAHRUDIN,3213261812080130,KP PANEMBONG RW 001 RT 001,Keluarga Besar, Sedang ,SMP,Sedang,petani,Kurang,Tidak
+MIMIN,3213262903120000,KP NYALINDUNG RW 004 RT 013,Keluarga Kecil, Tinggi ,SMP,Sedang,lain-lain,Kurang,Tidak
+TINI SUARTINI,3213266308950002,KP CIGORE RW 005 RT 015,Keluarga Sedang, Kurang ,SD,Sedang,lain-lain,Cukup,Ya
+ROHMAH,3213264703520001,KPCIJEREHILIR RW 003 RT 011,Keluarga Sedang, Kurang ,SMP,Kurang,petani,Cukup,Ya
+ENIH NURHASANAH,3213260703090170,KP PANEMBONG RW 001 RT 001,Keluarga Besar, Tinggi ,SMP,Kurang,lain-lain,Cukup,Tidak
+SITA NURHAKIKI,3213264101770006,KP PANEMBONG RW 002 RT 005,Keluarga Sedang, Sedang ,Tidak Sekolah,Sedang,lain-lain,Cukup,Ya
+JONI ISKANDAR,3213260410120023,KP PANEMBONG RT 01 RW 02,Keluarga Kecil, tinggi ,SMA,Baik,Wirausaha,Baik,Tidak
+ABDUL HAMJAH,3213260103870001,KP PANEMBONG RT 03 RW 01,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Kurang,Ya
+WAWAN RUSWANDI,3213260703090100,KP PANEMBONG RW 002 RT 005,Keluarga Besar, Sedang ,SD,Kurang,petani,Cukup,Tidak
+YOYOH YULIA,3213260703090070,KP PANEMBONG RW 002 RT 006,Keluarga Kecil, Tinggi ,SMA,Baik,lain-lain,Baik,Tidak
+HENI NURAENI,3278094803890001,KP PANEMBONG RW 001 RT 002,Keluarga Kecil, Sedang ,SD,Sedang,lain-lain,Cukup,Ya
+RIVAL AGUNG SIDIK,3213263110170000,KP PANEMBONG RW 002 RT 006,Keluarga Besar, Tinggi ,SD,Sedang,lain-lain,Cukup,Tidak
+EVA KHOERIAH,3213266903890003,KP CIGORE RW 005 RT 016,Keluarga Sedang, Kurang ,SMP,Sedang,lain-lain,Cukup,Ya
+KANAH,3213262603061840,KP PANEMBONG RW 002 RT 006,Keluarga Kecil, Tinggi ,SMA,Baik,Wirausaha,Baik,Tidak
+IMAN ,3213261505170000,KP CIGORE RW 005 RT 015,Keluarga Sedang, Tinggi ,SMP,Baik,lain-lain,Baik,Tidak
